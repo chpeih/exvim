@@ -25,5 +25,5 @@ echo "overwrite .vimrc"
 mv exvim/.vimrc .
 
 
-echo "\nexport PATH=~/local/bin:$PATH\n" >> .bashrc
+echo "export PATH=~/local/bin:$PATH" >> .bashrc
 source .bashrc
