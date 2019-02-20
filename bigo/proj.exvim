@@ -13,7 +13,7 @@ project_name = 'proj'
 -- File And Folder Filters:
 folder_filter_mode = include -- { include, exclude }
 folder_filter +=
-file_filter += cc,h,cpp,sh,in,sql,ddl,thrift,proto
+file_filter += cc,h,cpp,sh,in,sql,ddl,thrift,proto,conf,hpp
 file_ignore_pattern +=
 
 -- Editing:
