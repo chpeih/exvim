@@ -1,6 +1,9 @@
 #!/bin/bash
 
 cd ~
+echo "tar exvim.tar.gz ================"
+tar -zxcf exvim/exVim.tar.gz
+
 echo "cp exVim dir start====================="
 cp -r exvim/exVim .
 echo "cp exVim dir end====================="
@@ -23,7 +26,6 @@ cd -
 
 echo "overwrite .vimrc"
 mv exvim/.vimrc .
-
 
 echo "export PATH=~/local/bin:$PATH" >> .bashrc
 source .bashrc
