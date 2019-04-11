@@ -2,7 +2,7 @@
 
 cd ~
 echo "tar exvim.tar.gz ================"
-tar -zxcf exvim/exVim.tar.gz
+tar -zxvf exvim/exVim.tar.gz
 
 echo "cp exVim dir start====================="
 cp -r exvim/exVim .
